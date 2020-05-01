@@ -40,11 +40,11 @@ for (let i=0; i<100; i++){
 ```
 Este trecho varre os elementos do array de 0 a 99, associando um valor a eles. Este valor é a posição do elemento + 1. Desta forma teremos a correspondência:
   elemento:   valor:
-  0           1
-  1           2
-  2           3
-  ...         ...
-  99          100
+  0 ---------- 1
+  1 ---------- 2
+  2 ---------- 3
+  ... ------- ...
+  99 -------- 100
   
 ```
 console.log(FizzBuzzArray);
